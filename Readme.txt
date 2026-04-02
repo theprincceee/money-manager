@@ -1,91 +1,71 @@
-Money Manager App
+# 💰 Smart Expense Tracker
 
-A simple and intuitive web-based personal finance tracking application built with HTML, CSS, and JavaScript using Object-Oriented Programming principles.
-Money Manager helps you track your personal finances by managing income and expense transactions. The app provides a clean interface to add, edit, delete, and view your financial transactions with real-time summary calculations.
-Features
-Core Functionality
+A modern and responsive personal finance tracker that helps you manage your income, expenses, and budget efficiently.
 
-1. Add Transactions: Record income and expenses with details
-2. Edit Transactions: Modify existing transaction details
-3. Delete Transactions: Remove transactions with confirmation
-4. View History: Display all transactions in a organized table
-5. Financial Summary: Real-time calculation of total income, expenses, and balance
+## 🌐 Live Demo
 
-Advanced Features
+👉 https://money-manager-hazel-mu.vercel.app
 
-1. Filter & Sort: Filter by category, sub-category, date range, and sort by date/amount
-2. Form Validation: Comprehensive input validation with error messages
-3. Data Persistence: Automatic saving to browser's local storage
-4. CSV Export: Download transaction data as CSV file
-5. Responsive Design: Works on desktop, tablet, and mobile devices
+---
 
-How It Works
+## 🚀 Features
 
-Adding Transactions
-1. Click "Add Transaction" button
-2. Fill in the form:
-       a. Amount: Enter transaction amount (required, positive number)
-       b. Date: Select date (defaults to today, cannot be future)
-       c. Category: Choose Income or Expense (required)
-       d. Sub-Category: Select from dropdown based on category (required)
-       e. Description: Optional text field (max 100 characters)
-3. Click "Save Transaction"
+* ➕ Add income and expense transactions
+* ✏️ Edit and 🗑️ delete transactions
+* 💾 Persistent storage using LocalStorage
+* 📊 Real-time income, expenses, and balance calculation
+* 🎯 Monthly budget tracking system
+* 📱 Fully responsive design (mobile-friendly)
+* 🎨 Clean and modern UI
 
-Categories
+---
 
-1. Income: Salary, Allowances, Bonus, Petty Cash, Other Income
-2.Expense: Rent, Food, Shopping, Entertainment, Transportation, Bills, Other Expense
+## 🛠️ Tech Stack
 
-Managing Transactions
-
-1. Edit: Click "Edit" button on any transaction row to modify
-2. Delete: Click "Delete" button with confirmation prompt
-3. Filter: Use dropdown filters and date range to find specific transactions
-4. Sort: Sort by date (newest/oldest) or amount (highest/lowest)
-
-Data Storage
-
-1. All data is automatically saved to your browser's local storage
-2. No server required - works completely offline
-3. Data persists between browser sessions
-
-File Structure
-    money-manager/
-    ├── index.html      # Main HTML structure
-    ├── styles.css      # CSS styling and responsive design
-    ├── script.js       # Complete JavaScript with OOP classes
-    └── README.txt      # This documentation
+* HTML
+* CSS
+* JavaScript
+* LocalStorage
 
 
-How to Use the Money Manager App Files
+---
 
- Your project has three files:
-       1. index.html – The structure of the app (layout and sections).
-       2. styles.css – The design and styling (colors, layout, chart size).
-       3. script.js – The functionality (adding transactions, filtering, chart updates).
+## ⚙️ How to Run Locally
 
-Steps to Set It Up
-       1. Create a new folder (e.g., MoneyManagerApp).
-       2. Save the three files inside:
-              * index.html
-              * styles.css
-              * script.js
-       3. Ensure the file names are exactly as above (case-sensitive).
-       
-a. How to Open the App
+1. Clone the repository
 
-       1. Open the folder.
-       2. Double-click index.html (or right-click → Open with browser).
-       3. The app will open in your browser — no installation required.
+```
+git clone https://github.com/theprincceee/money-manager.git
+```
 
-b. How It Works
+2. Navigate to project folder
 
-       1. The HTML file loads your app layout.
-       2. The CSS file styles everything automatically (you don’t need to link it again — it’s already linked in the HTML).
-       3. The JavaScript file adds interactivity: you can add transactions, filter them, and see the pie chart update in real time.
+```
+cd money-manager
+```
 
-c. How to Edit or Customize
+3. Open `index.html` in browser
 
-       1. To change colors, fonts, or chart size → edit styles.css.
-       2. To change transaction logic or chart data → edit script.js.
-       3. To modify layout or add sections → edit index.html.
+---
+
+## 📌 Future Improvements
+
+* 🔐 User authentication (login/signup)
+* ☁️ Backend integration (Node.js + MongoDB)
+* 📊 Advanced analytics & charts
+* 🌍 Multi-device data sync
+
+---
+
+## 👨‍💻 Author
+
+**Prince Kumar**
+
+* GitHub: https://github.com/theprincceee
+* LinkedIn: https://www.linkedin.com/in/prince-kumar-947545304/overlay/contact-info/
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
